@@ -6,7 +6,6 @@ body {
 }
 
 .cancelled {
-    margin-top: 40vh;
     text-align: center;
 }
 
@@ -21,4 +20,12 @@ body {
 .alert {
     text-align: center;
     padding: 100px;
+}
+
+.card {
+    text-align: center;
+}
+
+.btn {
+    width: 100px;
 }
