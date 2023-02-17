@@ -6,7 +6,6 @@ class Item(models.Model):
     name = models.CharField(max_length=250, verbose_name="Наименование товара")
     description = models.TextField(max_length=5000, blank=True, verbose_name="Описание")
     price = models.IntegerField(
-        max_length=20,
         verbose_name="Цена",
         validators=[
             validators.MinValueValidator(50),
