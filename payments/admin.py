@@ -1,4 +1,7 @@
 from django.contrib import admin
 from . import models
 
-admin.site.register(models.Item)
+
+@admin.register(models.Item)
+class ItemAdmin(admin.ModelAdmin):
+    fields = ("name", "description", "price")
