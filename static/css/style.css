@@ -5,10 +5,20 @@ body {
     font-size: 16px;
 }
 
+.cancelled {
+    margin-top: 40vh;
+    text-align: center;
+}
+
 .product {
     margin: auto;
 }
 
 .card-img-top {
     padding: 10px;
+}
+
+.alert {
+    text-align: center;
+    padding: 100px;
 }
