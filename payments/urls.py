@@ -10,6 +10,6 @@ urlpatterns = [
         views.SessionView.as_view(),
         name="session",
     ),
-    path("cancel/", views.CancelledView.as_view(), name="cancelled"),
+    path("cancelled/", views.CancelledView.as_view(), name="cancelled"),
     path("success/", views.SuccessView.as_view(), name="success"),
 ]
