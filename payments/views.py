@@ -45,8 +45,7 @@ class ItemView(TemplateView):
 
 class SessionView(View):
     def post(self, request, *args, **kwargs):
-        url = "http://127.0.0.1:8000"
-
+        url = settings.URL
         item_id = self.kwargs["pk"]
         try:
             item = Item.objects.get(id=item_id)
